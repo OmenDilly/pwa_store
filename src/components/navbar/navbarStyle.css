@@ -1,0 +1,45 @@
+.nav-main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #15B9FF;
+  color: #aee7ff;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.nav-main .nav-logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.nav-main .nav-options .nav-option {
+  padding: 1rem 1.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.nav-main .nav-options .nav-option:hover {
+  color: white;
+}
+
+.nav-main .nav-options .nav-option .active {
+  color: 'white';
+}
+/*# sourceMappingURL=navbarStyle.css.map */
